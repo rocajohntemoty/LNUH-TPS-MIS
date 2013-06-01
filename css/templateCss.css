@@ -1,0 +1,59 @@
+/* CSS Document */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+body{
+	margin:10px auto;
+	min-height:500px;
+	width:960px;
+}
+header, div#container, footer{
+	width:100%;
+}
+div#container{
+	/*border: 1px solid #CCC;*/
+}
+header h1{
+	text-indent:-99999px;
+	background-image:url(../images/LNU-H-Delivery.png);
+	background-repeat:no-repeat;
+	width:320px;
+	height:100px;
+}
+header h2{
+	text-indent:-99999px;
+	background-image:url(../images/login-here.png);
+	background-repeat:no-repeat;
+	width:250px;
+	height:50px;
+	margin-right:100px;
+	margin-top:60px;
+}
+#container .left{
+	width:700px;
+}
+#container .right{
+	height:100px;
+	width:240px;
+}
+footer{
+	width:100%;
+	height:20px;
+}
